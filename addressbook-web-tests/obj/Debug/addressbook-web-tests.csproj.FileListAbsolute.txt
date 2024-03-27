@@ -1,0 +1,9 @@
+/Users/i.hardikov/RiderProjects/addressbook-web-tests/addressbook-web-tests/bin/Debug/addressbook_web_tests.dll
+/Users/i.hardikov/RiderProjects/addressbook-web-tests/addressbook-web-tests/bin/Debug/addressbook_web_tests.pdb
+/Users/i.hardikov/RiderProjects/addressbook-web-tests/addressbook-web-tests/bin/Debug/nunit.framework.dll
+/Users/i.hardikov/RiderProjects/addressbook-web-tests/addressbook-web-tests/bin/Debug/nunit.framework.xml
+/Users/i.hardikov/RiderProjects/addressbook-web-tests/addressbook-web-tests/obj/Debug/addressbook-web-tests.csprojAssemblyReference.cache
+/Users/i.hardikov/RiderProjects/addressbook-web-tests/addressbook-web-tests/obj/Debug/addressbook-web-tests.csproj.CoreCompileInputs.cache
+/Users/i.hardikov/RiderProjects/addressbook-web-tests/addressbook-web-tests/obj/Debug/addressbook-web-tests.csproj.CopyComplete
+/Users/i.hardikov/RiderProjects/addressbook-web-tests/addressbook-web-tests/obj/Debug/addressbook_web_tests.dll
+/Users/i.hardikov/RiderProjects/addressbook-web-tests/addressbook-web-tests/obj/Debug/addressbook_web_tests.pdb
