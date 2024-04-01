@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e83f7b6-e98a-4e48-9072-6ac741e3b37f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.addressbook-web-tests/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAddressbookTests/AccountData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAddressbookTests/GroupCreationTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAddressbookTests/GroupData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAddressbookTests/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAddressbookTests/Tests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAddressbookTests/WebAddressbookTests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAddressbookTests/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.addressbook-web-tests/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.addressbook-web-tests/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.addressbook-web-tests/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/GroupCreationTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/Tests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/addressbook-web-tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/bin/Debug/addressbook_web_tests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/bin/Debug/addressbook_web_tests.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/bin/Debug/nunit.framework.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/bin/Debug/nunit.framework.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/obj/Debug/addressbook-web-tests.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/obj/Debug/addressbook-web-tests.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/obj/Debug/addressbook-web-tests.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/obj/Debug/addressbook-web-tests.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/obj/Debug/addressbook_web_tests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/obj/Debug/addressbook_web_tests.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/packages.config" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAddressbookTests/Tests/ContactCreationTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.addressbook-web-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.addressbook-web-tests/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/Data/AccountData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/Data/AccountData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/Data/GroupData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/Data/GroupData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/GroupCreationTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/Tests/GroupCreationTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/WebAddressbookTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/WebAddressbookTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/packages.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/674907902e914e45b7b2f7544616060d421a00/0a/eafe46b0/IWebElement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/674907902e914e45b7b2f7544616060d421a00/74/481e7e91/By.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2c98ac4189b6d4c45630c6165b8e43b4feb4a6bbb658a343f5660cfbcd0e556/MethodWrapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/538e3b0f6405dc6d87f23e7f33756211ea334b874b2da9ad4acb273a48113/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b7fb9655dcfedc3644545832153012c50b3e13395ea558a7021c0494aaae0/TargetInvocationException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bef935dbb8608c28a19b77b647713b45d6233995c443988e8154ae9ef3ddd3c/ContextUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fc423736d3854482b8e0d96af14ca889656672207d32f5f22759155cd2fea7/TestMethodCommand.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebAddressbookTests/AccountData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebAddressbookTests/GroupCreationTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebAddressbookTests/Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAddressbookTests/Data/AccountData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAddressbookTests/Tests/GroupCreationTests.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,7 +56,7 @@
       <workItem from="1711819372337" duration="1243000" />
       <workItem from="1711820913650" duration="274000" />
       <workItem from="1711821453651" duration="6139000" />
-      <workItem from="1711975837829" duration="7448000" />
+      <workItem from="1711975837829" duration="10153000" />
     </task>
     <task id="LOCAL-00001" summary="created Solution">
       <created>1711548572279</created>
@@ -92,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711966581761</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавление дата-классов, рефакторинг">
+      <created>1711996912985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711996912985</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +102,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="created Solution" />
     <MESSAGE value="создание теста, подключение нугет пакетов" />
-    <option name="LAST_COMMIT_MESSAGE" value="создание теста, подключение нугет пакетов" />
+    <MESSAGE value="добавление дата-классов, рефакторинг" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление дата-классов, рефакторинг" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebAddressbookTests/Tests/GroupCreationTests.cs</url>
+          <line>45</line>
+          <properties documentPath="$PROJECT_DIR$/WebAddressbookTests/Tests/GroupCreationTests.cs" initialLine="45" containingFunctionPresentation="method 'GroupCreationTest'">
+            <startOffsets>
+              <option value="1129" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1171" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

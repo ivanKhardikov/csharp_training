@@ -45,7 +45,7 @@ namespace WebAddressbookTests
         {
             Login(new AccountData("admin", "secret"));
             
-            NavigateToGroupePage();
+            NavigateToGroupPage();
             
             CreatingNewGroup(new GroupData("test", "admin", "test"));
             
@@ -53,12 +53,22 @@ namespace WebAddressbookTests
             
             Logout();
         }
-
-        private void Logout()
+        
+        private void Login(AccountData accountData)
         {
-            driver.FindElement(By.LinkText("Logout")).Click();
+            driver.Navigate().GoToUrl(baseURL);
+            Thread.Sleep(2000);
+            driver.FindElement(By.Name("user")).SendKeys(accountData.Username);
+            driver.FindElement(By.Name("pass")).SendKeys(accountData.Password);
+            driver.FindElement(By.XPath("//input[@value='Login']")).Click();
         }
 
+        private void NavigateToGroupPage()
+        {
+            driver.FindElement(By.LinkText("groups")).Click();
+            driver.Navigate().GoToUrl("http://localhost/addressbook/group.php");
+        }
+        
         private void CreatingNewGroup(GroupData groupData)
         {
             driver.FindElement(By.Name("new")).Click();
@@ -71,60 +81,9 @@ namespace WebAddressbookTests
             driver.FindElement(By.Name("submit")).Click();
         }
 
-        private void NavigateToGroupePage()
+        private void Logout()
         {
-            driver.FindElement(By.LinkText("groups")).Click();
-            driver.Navigate().GoToUrl("http://localhost/addressbook/group.php");
-        }
-
-        private void Login(AccountData accountData)
-        {
-            driver.Navigate().GoToUrl(baseURL);
-            Thread.Sleep(2000);
-            driver.FindElement(By.Name("user")).SendKeys(accountData.Username);
-            driver.FindElement(By.Name("pass")).SendKeys(accountData.Password);
-            driver.FindElement(By.XPath("//input[@value='Login']")).Click();
-        }
-
-        private bool IsElementPresent(By by)
-        {
-            try
-            {
-                driver.FindElement(by);
-                return true;
-            }
-            catch (NoSuchElementException)
-            {
-                return false;
-            }
-        }
-        
-        private bool IsAlertPresent()
-        {
-            try
-            {
-                driver.SwitchTo().Alert();
-                return true;
-            }
-            catch (NoAlertPresentException)
-            {
-                return false;
-            }
-        }
-        
-        private string CloseAlertAndGetItsText() {
-            try {
-                IAlert alert = driver.SwitchTo().Alert();
-                string alertText = alert.Text;
-                if (acceptNextAlert) {
-                    alert.Accept();
-                } else {
-                    alert.Dismiss();
-                }
-                return alertText;
-            } finally {
-                acceptNextAlert = true;
-            }
+            driver.FindElement(By.LinkText("Logout")).Click();
         }
     }
 }
