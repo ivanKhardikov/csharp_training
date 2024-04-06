@@ -11,13 +11,13 @@ namespace WebAddressbookTests
         [Test]
         public void GroupCreationTest()
         {
-            _loginHelper.Login(new AccountData("admin", "secret"));
+            _manager.Auth.Login(new AccountData("admin", "secret"));
             
-            _navigationHelper.NavigateToGroupPage();
+            _manager.Navi.NavigateToGroupPage();
             
-            _creationHelper.CreatingNewGroup(new GroupData("test", "admin", "test"));
+            _manager.Create.CreatingNewGroup(new GroupData("test", "admin", "test"));
             
-            _logoutHelper.Logout();
+            _manager.Quit.Logout();
         }
     }
 }

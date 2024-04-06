@@ -11,13 +11,13 @@ namespace WebAddressbookTests
         [Test]
         public void GroupDeletionTest()
         {
-            _loginHelper.Login(new AccountData("admin", "secret"));
+            _manager.Auth.Login(new AccountData("admin", "secret"));
             
-            _navigationHelper.NavigateToGroupPage();
+            _manager.Navi.NavigateToGroupPage();
             
-            _deletionHelper.DeleteGroup();
+            _manager.Delete.DeleteGroup();
             
-            _logoutHelper.Logout();
+            _manager.Quit.Logout();
         }
     }
 }

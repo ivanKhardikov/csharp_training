@@ -10,13 +10,13 @@ namespace WebAddressbookTests
         [Test]
         public void ContractCreationTest() 
         {
-            _loginHelper.Login(new AccountData("admin", "secret"));
+            _manager.Auth.Login(new AccountData("admin", "secret"));
             
-            _navigationHelper.NavigateToContactPage();
+            _manager.Navi.NavigateToContactPage();
             
-            _creationHelper.CreatingNewContact(new ContactData("Iv", "Kh"));
+            _manager.Create.CreatingNewContact(new ContactData("Iv", "Kh"));
             
-            _logoutHelper.Logout();
+            _manager.Quit.Logout();
         }
     }
 }
