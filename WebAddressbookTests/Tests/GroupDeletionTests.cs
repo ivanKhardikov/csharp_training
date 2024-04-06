@@ -3,19 +3,19 @@ using NUnit.Framework;
 namespace WebAddressbookTests
 {
     [TestFixture]
-    public class GroupCreationTests : BaseTest
+    public class GroupDeletionTests : BaseTest
     {
         /// <summary>
-        /// Проверка создания группы
+        /// Проверка удаления группы
         /// </summary>
         [Test]
-        public void GroupCreationTest()
+        public void GroupDeletionTest()
         {
             _loginHelper.Login(new AccountData("admin", "secret"));
             
             _navigationHelper.NavigateToGroupPage();
             
-            _creationHelper.CreatingNewGroup(new GroupData("test", "admin", "test"));
+            _deletionHelper.DeleteGroup();
             
             _logoutHelper.Logout();
         }
