@@ -13,5 +13,11 @@ namespace WebAddressbookTests
             _driver.FindElement(By.Name("selected[]")).Click();
             _driver.FindElement(By.Name("delete")).Click();
         }
+        
+        public void DeleteContact()
+        {
+            _driver.FindElement(By.Name("selected[]")).Click();
+            _driver.FindElement(By.XPath("//input[@value='Delete']")).Click();
+        }
     }
 }

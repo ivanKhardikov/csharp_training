@@ -12,7 +12,7 @@ namespace WebAddressbookTests
         {
             _manager.Auth.Login(new AccountData("admin", "secret"));
             
-            _manager.Navi.NavigateToContactPage();
+            _manager.Navi.NavigateToContactCreationPage();
             
             _manager.Create.CreatingNewContact(new ContactData("Iv", "Kh"));
             

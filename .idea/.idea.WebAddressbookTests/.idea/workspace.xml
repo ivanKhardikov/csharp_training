@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e83f7b6-e98a-4e48-9072-6ac741e3b37f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/Helpers/ApplicationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/Helpers/ApplicationManager.cs" afterDir="false" />
+    <list default="true" id="0e83f7b6-e98a-4e48-9072-6ac741e3b37f" name="Changes" comment="правки в классе менеджере">
+      <change afterPath="$PROJECT_DIR$/WebAddressbookTests/Tests/ContantDeletionTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebAddressbookTests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebAddressbookTests/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/Helpers/DeletionHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/Helpers/DeletionHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/Helpers/NavigationHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/Helpers/NavigationHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/Tests/BaseTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/Tests/BaseTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/WebAddressbookTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/WebAddressbookTests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +25,16 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/674907902e914e45b7b2f7544616060d421a00/74/481e7e91/By.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/674907902e914e45b7b2f7544616060d421a00/a9/cd3ee518/WebDriver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2c98ac4189b6d4c45630c6165b8e43b4feb4a6bbb658a343f5660cfbcd0e556/MethodWrapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/36349663d7195ab39cc6efc2b3a32aedaa7331551e9dceb94b6b991bde52b/SetUpTearDownItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/538e3b0f6405dc6d87f23e7f33756211ea334b874b2da9ad4acb273a48113/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7f57eabcbac458cf4626a4c98a761414f5ed3895280f4d415e5cf53cc2abf/SimpleWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a7756272f4b12d2119643f9384554347766159637191d2dec50afca75322915/CompositeWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bef935dbb8608c28a19b77b647713b45d6233995c443988e8154ae9ef3ddd3c/ContextUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c0609aecee0ba30f294b41e953be6c17e90e7f338f0a78ea1c1bdab8d5ddca5/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c51a864e8438a181ed7952db6edbf1cddc97d42d1184147a1781b68be885441/DelegatingTestCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c5c19ff0d37c8b2c719b56bead67eb553540c9bc6110f8c2864a72a8d41155/thread.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fc423736d3854482b8e0d96af14ca889656672207d32f5f22759155cd2fea7/TestMethodCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/i.hardikov/RiderProjects/addressbook-web-tests/WebAddressbookTests/Helpers/ApplicationManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,7 +70,7 @@
       <workItem from="1712009916365" duration="3182000" />
       <workItem from="1712056745851" duration="23428000" />
       <workItem from="1712430518791" duration="196000" />
-      <workItem from="1712430729841" duration="3007000" />
+      <workItem from="1712430729841" duration="4822000" />
     </task>
     <task id="LOCAL-00001" summary="created Solution">
       <created>1711548572279</created>
@@ -104,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712430485247</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="правки в классе менеджере">
+      <created>1712488468891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712488468891</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,46 +160,21 @@
     <MESSAGE value="создал базовый класс для тестов, добавил хелпер-классы" />
     <MESSAGE value="создал класс-менеджер" />
     <MESSAGE value="манипуляции с гитигнор" />
-    <option name="LAST_COMMIT_MESSAGE" value="манипуляции с гитигнор" />
+    <MESSAGE value="правки в классе менеджере" />
+    <option name="LAST_COMMIT_MESSAGE" value="правки в классе менеджере" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WebAddressbookTests/Helpers/LoginHelper.cs</url>
-          <line>16</line>
-          <properties documentPath="$PROJECT_DIR$/WebAddressbookTests/Helpers/LoginHelper.cs" initialLine="17" containingFunctionPresentation="method 'Login'">
-            <startOffsets>
-              <option value="375" />
-            </startOffsets>
-            <endOffsets>
-              <option value="412" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WebAddressbookTests/Tests/ContactCreationTests.cs</url>
-          <line>12</line>
-          <properties documentPath="$PROJECT_DIR$/WebAddressbookTests/Tests/ContactCreationTests.cs" initialLine="12" containingFunctionPresentation="method 'ContractCreationTest'">
-            <startOffsets>
-              <option value="283" />
-            </startOffsets>
-            <endOffsets>
-              <option value="339" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WebAddressbookTests/Tests/BaseTest.cs</url>
-          <line>29</line>
+          <line>12</line>
           <properties documentPath="$PROJECT_DIR$/WebAddressbookTests/Tests/BaseTest.cs" initialLine="29" containingFunctionPresentation="method 'SetupTest'">
             <startOffsets>
-              <option value="1149" />
+              <option value="259" />
             </startOffsets>
             <endOffsets>
-              <option value="1150" />
+              <option value="260" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />

@@ -11,10 +11,15 @@ namespace WebAddressbookTests
             _baseUrl = baseUrl;
         }
 
-        public void NavigateToContactPage()
+        public void NavigateToContactCreationPage()
         {
             _driver.FindElement(By.LinkText("add new")).Click();
             _driver.Navigate().GoToUrl(_baseUrl + "/edit.php");
+        }
+        
+        public void NavigateToContactDeletionPage()
+        {
+            _driver.Navigate().GoToUrl(_baseUrl + "/index.php");
         }
         
         public void NavigateToGroupPage()
