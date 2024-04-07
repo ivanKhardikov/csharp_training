@@ -42,11 +42,46 @@ namespace WebAddressbookTests
                 // Ignore errors if unable to close the browser
             }
         }
-        
-        public LoginHelper Auth { get; set; }
-        public CreationHelper Create { get; set; }
-        public DeletionHelper Delete { get; set; }
-        public NavigationHelper Navi { get; set; }
-        public LogoutHelper Quit { get; set; }
+
+        public LoginHelper Auth
+        {
+            get
+            {
+                return _loginHelper;
+            }
+        }
+
+        public CreationHelper Create
+        {
+            get
+            {
+                return _creationHelper;
+            }
+
+        }
+
+        public DeletionHelper Delete
+        {
+            get
+            {
+                return _deletionHelper;
+            }
+        }
+
+        public NavigationHelper Navi
+        {
+            get
+            {
+                return _navigationHelper;
+            }
+        }
+
+        public LogoutHelper Quit
+        {
+            get
+            {
+                return _logoutHelper;
+            }
+        }
     }
 }

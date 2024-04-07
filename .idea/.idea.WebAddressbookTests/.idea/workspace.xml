@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e83f7b6-e98a-4e48-9072-6ac741e3b37f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/WebAddressbookTests/Helpers/ApplicationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAddressbookTests/Helpers/ApplicationManager.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/674907902e914e45b7b2f7544616060d421a00/74/481e7e91/By.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/674907902e914e45b7b2f7544616060d421a00/a9/cd3ee518/WebDriver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2c98ac4189b6d4c45630c6165b8e43b4feb4a6bbb658a343f5660cfbcd0e556/MethodWrapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/538e3b0f6405dc6d87f23e7f33756211ea334b874b2da9ad4acb273a48113/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bef935dbb8608c28a19b77b647713b45d6233995c443988e8154ae9ef3ddd3c/ContextUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c0609aecee0ba30f294b41e953be6c17e90e7f338f0a78ea1c1bdab8d5ddca5/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c51a864e8438a181ed7952db6edbf1cddc97d42d1184147a1781b68be885441/DelegatingTestCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fc423736d3854482b8e0d96af14ca889656672207d32f5f22759155cd2fea7/TestMethodCommand.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2eGNLiM9FXxr225EAIhGwS0Wdve" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e83f7b6-e98a-4e48-9072-6ac741e3b37f" name="Changes" comment="" />
+      <created>1711526900675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711526900675</updated>
+      <workItem from="1711526910860" duration="7179000" />
+      <workItem from="1711819372337" duration="1243000" />
+      <workItem from="1711820913650" duration="274000" />
+      <workItem from="1711821453651" duration="6139000" />
+      <workItem from="1711975837829" duration="5998000" />
+      <workItem from="1712009916365" duration="3182000" />
+      <workItem from="1712056745851" duration="23428000" />
+      <workItem from="1712430518791" duration="196000" />
+      <workItem from="1712430729841" duration="3007000" />
+    </task>
+    <task id="LOCAL-00001" summary="created Solution">
+      <created>1711548572279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711548572279</updated>
+    </task>
+    <task id="LOCAL-00002" summary="создание теста, подключение нугет пакетов">
+      <created>1711966581761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711966581761</updated>
+    </task>
+    <task id="LOCAL-00003" summary="создание теста на добавление контакта, рефакторинг">
+      <created>1712011784931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712011784931</updated>
+    </task>
+    <task id="LOCAL-00004" summary="создал базовый класс для тестов, добавил хелпер-классы">
+      <created>1712403211605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712403211605</updated>
+    </task>
+    <task id="LOCAL-00005" summary="создал класс-менеджер">
+      <created>1712429317730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712429317730</updated>
+    </task>
+    <task id="LOCAL-00006" summary="манипуляции с гитигнор">
+      <created>1712430485247</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712430485247</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="created Solution" />
+    <MESSAGE value="создание теста, подключение нугет пакетов" />
+    <MESSAGE value="создание теста на добавление контакта, рефакторинг" />
+    <MESSAGE value="создал базовый класс для тестов, добавил хелпер-классы" />
+    <MESSAGE value="создал класс-менеджер" />
+    <MESSAGE value="манипуляции с гитигнор" />
+    <option name="LAST_COMMIT_MESSAGE" value="манипуляции с гитигнор" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebAddressbookTests/Helpers/LoginHelper.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/WebAddressbookTests/Helpers/LoginHelper.cs" initialLine="17" containingFunctionPresentation="method 'Login'">
+            <startOffsets>
+              <option value="375" />
+            </startOffsets>
+            <endOffsets>
+              <option value="412" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebAddressbookTests/Tests/ContactCreationTests.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/WebAddressbookTests/Tests/ContactCreationTests.cs" initialLine="12" containingFunctionPresentation="method 'ContractCreationTest'">
+            <startOffsets>
+              <option value="283" />
+            </startOffsets>
+            <endOffsets>
+              <option value="339" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebAddressbookTests/Tests/BaseTest.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/WebAddressbookTests/Tests/BaseTest.cs" initialLine="29" containingFunctionPresentation="method 'SetupTest'">
+            <startOffsets>
+              <option value="1149" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1150" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#WebAddressbookTests.ApplicationManager" memberName="_driver" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
