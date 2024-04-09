@@ -6,7 +6,7 @@ namespace WebAddressbookTests
     {
         protected string _baseUrl;
 
-        public NavigationHelper(IWebDriver driver, string baseUrl) : base(driver)
+        public NavigationHelper(ApplicationManager manager, string baseUrl) : base(manager)
         {
             _baseUrl = baseUrl;
         }
@@ -17,7 +17,7 @@ namespace WebAddressbookTests
             _driver.Navigate().GoToUrl(_baseUrl + "/edit.php");
         }
         
-        public void NavigateToContactDeletionPage()
+        public void NavigateToHomePage()
         {
             _driver.Navigate().GoToUrl(_baseUrl + "/index.php");
         }

@@ -4,7 +4,7 @@ namespace WebAddressbookTests
 {
     public class DeletionHelper : BaseHelper
     {
-        public DeletionHelper(IWebDriver driver) : base(driver)
+        public DeletionHelper(ApplicationManager manager) : base(manager)
         {
         }
 

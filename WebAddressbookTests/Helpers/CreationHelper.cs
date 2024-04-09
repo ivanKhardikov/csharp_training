@@ -4,7 +4,7 @@ namespace WebAddressbookTests
 {
     public class CreationHelper : BaseHelper
     {
-        public CreationHelper(IWebDriver driver) : base(driver)
+        public CreationHelper(ApplicationManager manager) : base(manager)
         {
         }
 

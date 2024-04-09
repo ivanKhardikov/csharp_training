@@ -11,11 +11,8 @@ namespace WebAddressbookTests
         public void ContactDeletionTest()
         {
             _manager.Auth.Login(new AccountData("admin", "secret"));
-            
-            _manager.Navi.NavigateToContactDeletionPage();
-            
+            _manager.Navi.NavigateToHomePage();
             _manager.Delete.DeleteContact();
-            
             _manager.Quit.Logout();
         }
     }

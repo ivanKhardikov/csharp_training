@@ -13,10 +13,11 @@ namespace WebAddressbookTests
         
         protected LoginHelper _loginHelper;
         protected NavigationHelper _navigationHelper;
+        protected ModificationHelper _modificationHelper;
         protected CreationHelper _creationHelper;
         protected DeletionHelper _deletionHelper;
         protected LogoutHelper _logoutHelper;
-        
+
         public ApplicationManager()
         {
             _driver = new ChromeDriver();
@@ -24,11 +25,12 @@ namespace WebAddressbookTests
             _baseURL = "http://localhost/addressbook";
             _verificationErrors = new StringBuilder();
             
-            _loginHelper = new LoginHelper(_driver, _baseURL);
-            _navigationHelper = new NavigationHelper(_driver, _baseURL);
-            _creationHelper = new CreationHelper(_driver);
-            _deletionHelper = new DeletionHelper(_driver);
-            _logoutHelper = new LogoutHelper(_driver);
+            _loginHelper = new LoginHelper(this, _baseURL);
+            _navigationHelper = new NavigationHelper(this, _baseURL);
+            _creationHelper = new CreationHelper(this);
+            _deletionHelper = new DeletionHelper(this);
+            _logoutHelper = new LogoutHelper(this);
+            _modificationHelper = new ModificationHelper(this);
         }
 
         public void Stop()
@@ -75,12 +77,28 @@ namespace WebAddressbookTests
                 return _navigationHelper;
             }
         }
+        
+        public ModificationHelper Mode
+        {
+            get
+            {
+                return _modificationHelper;
+            }
+        }
 
         public LogoutHelper Quit
         {
             get
             {
                 return _logoutHelper;
+            }
+        }
+        
+        public IWebDriver Driver
+        {
+            get
+            {
+                return _driver;
             }
         }
     }

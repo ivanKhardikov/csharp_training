@@ -7,7 +7,7 @@ namespace WebAddressbookTests
     {
         protected string _baseUrl;
 
-        public LoginHelper(IWebDriver driver, string baseUrl) : base(driver)
+        public LoginHelper(ApplicationManager manager, string baseUrl) : base(manager)
         {
             _baseUrl = baseUrl;
         }

@@ -5,10 +5,12 @@ namespace WebAddressbookTests
     public class BaseHelper
     {
         public IWebDriver _driver;
+        public ApplicationManager _manager;
 
-        public BaseHelper(IWebDriver driver)
+        public BaseHelper(ApplicationManager manager)
         {
-            _driver = driver;
+            _manager = manager;
+            _driver = manager.Driver;
         }
     }
 }

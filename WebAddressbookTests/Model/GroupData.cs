@@ -12,7 +12,5 @@ namespace WebAddressbookTests
             Header = header;
             Footer = footer;
         }
-
-        
     }
 }

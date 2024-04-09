@@ -55,6 +55,7 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Helpers\ModificationHelper.cs" />
         <Compile Include="Model\AccountData.cs" />
         <Compile Include="Model\ContactData.cs" />
         <Compile Include="Model\GroupData.cs" />
@@ -69,8 +70,10 @@
         <Compile Include="Tests\BaseTest.cs" />
         <Compile Include="Tests\ContactCreationTests.cs" />
         <Compile Include="Tests\ContantDeletionTests.cs" />
+        <Compile Include="Tests\ContantModificationTests.cs" />
         <Compile Include="Tests\GroupCreationTests.cs" />
         <Compile Include="Tests\GroupDeletionTests.cs" />
+        <Compile Include="Tests\GroupModificationTests.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
