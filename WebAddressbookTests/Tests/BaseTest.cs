@@ -9,13 +9,7 @@ namespace WebAddressbookTests
         [SetUp]
         public void SetupTest()
         {
-            _manager = new ApplicationManager();
-        }
-        
-        [TearDown]
-        public void TeardownTest()
-        {
-            _manager.Stop();
+            _manager = ApplicationManager.GetInstance();
         }
     }
 }

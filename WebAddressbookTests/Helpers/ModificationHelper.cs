@@ -44,14 +44,11 @@ namespace WebAddressbookTests
         
         private void FillGroupForm(GroupData groupData)
         {
-            _driver.FindElement(By.Name("group_name")).Clear();
-            _driver.FindElement(By.Name("group_name")).SendKeys(groupData.Groupname);
-            _driver.FindElement(By.Name("group_header")).Clear();
-            _driver.FindElement(By.Name("group_header")).SendKeys(groupData.Header);
-            _driver.FindElement(By.Name("group_footer")).Clear();
-            _driver.FindElement(By.Name("group_footer")).SendKeys(groupData.Footer);
+            Type(By.Name("group_name"), groupData.Groupname);
+            Type(By.Name("group_header"), groupData.Header);
+            Type(By.Name("group_footer"), groupData.Footer);
         }
-        
+
         private void FillContactForm(ContactData contactData)
         {
             _driver.FindElement(By.Name("firstname")).Clear();

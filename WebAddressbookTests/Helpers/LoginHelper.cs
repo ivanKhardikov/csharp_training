@@ -16,9 +16,11 @@ namespace WebAddressbookTests
         {
             _driver.Navigate().GoToUrl(_baseUrl);
             Thread.Sleep(2000);
-            _driver.FindElement(By.Name("user")).SendKeys(accountData.Username);
-            _driver.FindElement(By.Name("pass")).SendKeys(accountData.Password);
+            Type(By.Name("user"), accountData.Username);
+            Type(By.Name("pass"), accountData.Password);
             _driver.FindElement(By.XPath("//input[@value='Login']")).Click();
+            
+            
         }
     }
 }

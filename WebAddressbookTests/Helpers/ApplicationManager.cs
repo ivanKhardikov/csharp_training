@@ -1,5 +1,6 @@
 using System;
 using System.Text;
+using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
@@ -17,8 +18,10 @@ namespace WebAddressbookTests
         protected CreationHelper _creationHelper;
         protected DeletionHelper _deletionHelper;
         protected LogoutHelper _logoutHelper;
+        
+        private static ThreadLocal<ApplicationManager> instance = new ThreadLocal<ApplicationManager>();
 
-        public ApplicationManager()
+        private ApplicationManager()
         {
             _driver = new ChromeDriver();
             _driver.Manage().Window.Maximize();
@@ -33,7 +36,7 @@ namespace WebAddressbookTests
             _modificationHelper = new ModificationHelper(this);
         }
 
-        public void Stop()
+        ~ApplicationManager()
         {
             try
             {
@@ -43,6 +46,15 @@ namespace WebAddressbookTests
             {
                 // Ignore errors if unable to close the browser
             }
+        }
+
+        public static ApplicationManager GetInstance()
+        {
+            if (!instance.IsValueCreated)
+            {
+                instance.Value = new ApplicationManager();
+            }
+            return instance.Value;
         }
 
         public LoginHelper Auth
