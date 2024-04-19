@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace WebAddressbookTests
 {
-    public class ContantDeletionTests : BaseTest
+    public class ContantDeletionTests : AuthTestBase
     {
         /// <summary>
         /// Проверка удаления контактов
@@ -10,8 +10,8 @@ namespace WebAddressbookTests
         [Test]
         public void ContactDeletionTest()
         {
-            _manager.Auth.Login(new AccountData("admin", "secret"));
             _manager.Navi.NavigateToHomePage();
+            _manager.Delete.NoContactCreation();
             _manager.Delete.DeleteContact();
             _manager.Quit.Logout();
         }

@@ -3,7 +3,7 @@ using NUnit.Framework;
 namespace WebAddressbookTests
 {
     [TestFixture]
-    public class GroupModificationTests : BaseTest
+    public class GroupModificationTests : AuthTestBase
     {
         /// <summary>
         /// Проверка редактирования группы
@@ -12,8 +12,9 @@ namespace WebAddressbookTests
         public void GroupModificationTest()
         {
             GroupData groupData = new GroupData("user", "head", "foot");
-
-            _manager.Auth.Login(new AccountData("admin", "secret"));
+            
+            _manager.Navi.NavigateToGroupPage();
+            _manager.Delete.NoGroupCreation();
             _manager.Mode.GroupModify(groupData, 1);
             _manager.Quit.Logout();
         }

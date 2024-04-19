@@ -21,5 +21,17 @@ namespace WebAddressbookTests
                 _driver.FindElement(locator).SendKeys(text);
             }
         }
+        public bool IsElementPresent(By by)
+        {
+            try
+            {
+                _driver.FindElement(by);
+                return true;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
+        }
     }
 }

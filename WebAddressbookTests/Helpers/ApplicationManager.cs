@@ -35,8 +35,8 @@ namespace WebAddressbookTests
             _logoutHelper = new LogoutHelper(this);
             _modificationHelper = new ModificationHelper(this);
         }
-
-        ~ApplicationManager()
+        
+        public void Stop()
         {
             try
             {

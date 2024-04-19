@@ -3,7 +3,7 @@ using NUnit.Framework;
 namespace WebAddressbookTests
 {
     [TestFixture]
-    public class ContantModificationTests : BaseTest
+    public class ContantModificationTests : AuthTestBase
     {
         /// <summary>
         /// Проверка редактирования контакта
@@ -13,7 +13,8 @@ namespace WebAddressbookTests
         {
             ContactData contactData = new ContactData("Alex", "Ov");
 
-            _manager.Auth.Login(new AccountData("admin", "secret"));
+            _manager.Navi.NavigateToHomePage();
+            _manager.Delete.NoContactCreation();
             _manager.Mode.ContactModify(contactData);
             _manager.Quit.Logout();
         }   

@@ -10,7 +10,6 @@ namespace WebAddressbookTests
 
         public void GroupModify(GroupData groupData, int index)
         {
-            _manager.Navi.NavigateToGroupPage();
             SelectGroup(index);
             InitGroupModification();
             FillGroupForm(groupData);
@@ -19,7 +18,6 @@ namespace WebAddressbookTests
         
         public void ContactModify(ContactData contactData)
         {
-            _manager.Navi.NavigateToHomePage();
             EditContact();
             FillContactForm(contactData);
             SubmitContactModification();
@@ -67,10 +65,5 @@ namespace WebAddressbookTests
             _driver.FindElement(By.Name("update")).Click();
             return this;
         }
-        //
-        // private void UpdateGroup()
-        // {
-        //     _driver.FindElement(By.Name("update")).Click();
-        // }
     }
 }

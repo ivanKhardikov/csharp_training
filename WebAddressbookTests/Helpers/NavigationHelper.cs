@@ -19,11 +19,20 @@ namespace WebAddressbookTests
         
         public void NavigateToHomePage()
         {
+            if (_driver.Url == _baseUrl + "/index.php")
+            {
+                return;
+            }
             _driver.Navigate().GoToUrl(_baseUrl + "/index.php");
         }
         
         public void NavigateToGroupPage()
         {
+            if (_driver.Url == _baseUrl + "/group.php"
+                && IsElementPresent(By.Name("new")))
+            {
+                return;
+            }
             _driver.FindElement(By.LinkText("groups")).Click();
             _driver.Navigate().GoToUrl(_baseUrl + "/group.php");
         }
