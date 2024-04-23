@@ -11,7 +11,7 @@ namespace WebAddressbookTests
         public void ContactDeletionTest()
         {
             _manager.Navi.NavigateToHomePage();
-            _manager.Delete.NoContactCreation();
+            _manager.Create.NoContactCreation();
             _manager.Delete.DeleteContact();
             _manager.Quit.Logout();
         }

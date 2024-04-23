@@ -12,7 +12,7 @@ namespace WebAddressbookTests
         public void GroupDeletionTest()
         {
             _manager.Navi.NavigateToGroupPage();
-            _manager.Delete.NoGroupCreation();
+            _manager.Create.NoGroupCreation();
             _manager.Delete.DeleteGroup();
             _manager.Quit.Logout();
         }

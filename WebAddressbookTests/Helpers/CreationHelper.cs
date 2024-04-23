@@ -28,5 +28,24 @@ namespace WebAddressbookTests
             _driver.FindElement(By.Name("group_footer")).SendKeys(groupData.Footer);
             _driver.FindElement(By.Name("submit")).Click();
         }
+        
+        public void NoGroupCreation()
+        {
+            if (!IsElementPresent(By.XPath("//*[@class='group']")))
+            {
+                _manager.Create.CreatingNewGroup(new GroupData("a", "b", "c"));
+                _manager.Navi.NavigateToGroupPage();
+            }
+        }
+        
+        public void NoContactCreation()
+        {
+            if (!IsElementPresent(By.XPath("//*[@name='entry']//input")))
+            {
+                _manager.Navi.NavigateToContactCreationPage();
+                _manager.Create.CreatingNewContact(new ContactData("i", "kh"));
+                _manager.Navi.NavigateToHomePage();
+            }
+        }
     }
 }

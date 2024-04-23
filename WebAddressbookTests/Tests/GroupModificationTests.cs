@@ -14,7 +14,7 @@ namespace WebAddressbookTests
             GroupData groupData = new GroupData("user", "head", "foot");
             
             _manager.Navi.NavigateToGroupPage();
-            _manager.Delete.NoGroupCreation();
+            _manager.Create.NoGroupCreation();
             _manager.Mode.GroupModify(groupData, 1);
             _manager.Quit.Logout();
         }

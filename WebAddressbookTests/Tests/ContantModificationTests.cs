@@ -14,7 +14,7 @@ namespace WebAddressbookTests
             ContactData contactData = new ContactData("Alex", "Ov");
 
             _manager.Navi.NavigateToHomePage();
-            _manager.Delete.NoContactCreation();
+            _manager.Create.NoContactCreation();
             _manager.Mode.ContactModify(contactData);
             _manager.Quit.Logout();
         }   
